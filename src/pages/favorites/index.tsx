@@ -4,16 +4,20 @@
  * @Author: Adxiong
  * @Date: 2022-07-29 23:04:05
  * @LastEditors: Adxiong
- * @LastEditTime: 2022-07-29 23:14:00
+ * @LastEditTime: 2022-07-31 00:12:13
  */
+
+import { Layout } from 'antd';
+import React from 'react';
+import Card from '../../components/card';
 
 interface Props {}
 
 const Favorites = (props: Props) => {
   return (
-    <div>
-      <span>这是收藏页</span>
-    </div>
+    <Layout>
+      <Card></Card>
+    </Layout>
   );
 };
 

@@ -4,7 +4,7 @@
  * @Author: Adxiong
  * @Date: 2022-07-29 22:28:28
  * @LastEditors: Adxiong
- * @LastEditTime: 2022-07-29 23:23:26
+ * @LastEditTime: 2022-07-30 16:35:22
  */
 import './App.less';
 
@@ -17,7 +17,6 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes></Routes>
-        <Button> 111</Button>
       </div>
     </BrowserRouter>
   );
