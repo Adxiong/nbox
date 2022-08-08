@@ -6,12 +6,11 @@ import { Card, Space } from 'antd';
  * @Author: Adxiong
  * @Date: 2022-07-29 23:05:46
  * @LastEditors: Adxiong
- * @LastEditTime: 2022-08-04 00:46:51
+ * @LastEditTime: 2022-08-04 00:50:39
  */
 const Tools = () => {
   return (
     <div>
-      <span>这是工具页</span>
       <Space wrap>
         {new Array(100).fill(0).map((item) => {
           return (
